@@ -1,0 +1,108 @@
+.main {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background-color: rgb(247, 111, 0);
+    border-top: 1px solid white;
+    border-bottom: 4px solid white;
+    
+}
+
+.title {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+.buttonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    appearance: none;
+    background-color: rgb(247, 111, 0);
+    border: 2px solid white;
+    border-radius: 64px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    width: 30%;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 380ms cubic-bezier(0.23, 1, 0.320, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.button:disabled {
+    pointer-events: none;
+}
+
+.button:hover {
+    background-color: rgb(247, 111, 0);
+    color: #fff;
+    border: 2px solid white;
+    box-shadow: white;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.cardsContainer {
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 20rem;
+    height: 20rem;
+    background-color: transparent;
+    border: 5px solid rgb(247, 111, 0);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.cardTitle {
+    align-self: center;
+    padding: 0.5rem 0;
+    font-weight:bolder;
+    font-size: 1rem;
+}
+
+.cardContent {
+    width: 100%;
+    border-top: 5px solid rgb(247, 111, 0);
+    padding: 0.5rem;
+}
